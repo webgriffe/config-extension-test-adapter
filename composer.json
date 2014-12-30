@@ -1,0 +1,26 @@
+{
+    "name": "webgriffe/config-extension-test-adapter",
+    "type": "magento-module",
+    "license":"OSL-3.0",
+    "description":"This extension itegrates Webgriffe_Config with EcomDev_PHPUnit",
+    "authors":[
+        {
+            "name":"Webgriffe SRL",
+            "email":"support@webgriffe.com"
+        }
+    ],
+    "require-dev": {
+        "webgriffe/config-extension": ">=v1.0.1",
+        "ecomdev/ecomdev_phpunit": "*",
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@github.com:webgriffe/config-extension.git"
+        }
+    ]
+}
