@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Webgriffe_ConfigTestAdapter>
+            <version>1.0.0</version>
+        </Webgriffe_ConfigTestAdapter>
+    </modules>
+    <global>
+        <models>
+            <webgriffe_configtestadapter>
+                <class>Webgriffe_ConfigTestAdapter_Model</class>
+                <resourceModel>webgriffe_configtestadapter_resource</resourceModel>
+            </webgriffe_configtestadapter>
+            <webgriffe_configtestadapter_resource>
+                <class>Webgriffe_ConfigTestAdapter_Model_Resource</class>
+            </webgriffe_configtestadapter_resource>
+        </models>
+    </global>
+</config>

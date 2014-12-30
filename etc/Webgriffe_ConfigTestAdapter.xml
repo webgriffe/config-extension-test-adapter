@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Webgriffe_ConfigTestAdapter>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <EcomDev_PHPUnit/>
+                <Webgriffe_Config/>
+
+            </depends>
+        </Webgriffe_ConfigTestAdapter>
+    </modules>
+</config>
