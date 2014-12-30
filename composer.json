@@ -11,7 +11,7 @@
     ],
     "require-dev": {
         "webgriffe/config-extension": ">=v1.0.1",
-        "ecomdev/ecomdev_phpunit": "*",
+        "ecomdev/ecomdev_phpunit": "*"
     },
     "repositories": [
         {
