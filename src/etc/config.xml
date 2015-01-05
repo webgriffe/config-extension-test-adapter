@@ -16,4 +16,11 @@
             </webgriffe_configtestadapter_resource>
         </models>
     </global>
+    <phpunit>
+        <suite>
+            <app>
+                <class>Webgriffe_ConfigTestAdapter_Model_App</class>
+            </app>
+        </suite>
+    </phpunit>
 </config>
